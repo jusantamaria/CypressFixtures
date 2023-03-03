@@ -12,7 +12,7 @@ describe ('POM implementation', () => {
         homeSaucePage.typePassword('secret_sauce');
         homeSaucePage.clickLogin();
 
-        inventoryPage.elements.titleSpan().should('have.text', 'Test');
+        inventoryPage.elements.titleSpan().should('have.text', 'Products');
 
     });
 

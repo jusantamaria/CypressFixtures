@@ -1,0 +1,15 @@
+{
+  "name": "aysa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress open",
+    "cypress:execution": "cypress run"
+  },
+  "author": "Julian Santamaria",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.9.0"
+  }
+}
